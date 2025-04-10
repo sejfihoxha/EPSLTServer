@@ -24,11 +24,14 @@
 
 Edit the `AddDiscountCodeDb` method in `Program.cs` and replace the connection string with your own:
 
-### 3. Migarate DB.
+### 3. Migrate DB
 
-Inside of ESPSLTServer.Infrastructure solution exceute commands:
-add-migration "InitalDb"
+Inside the `ESPSLTServer.Infrastructure` solution, execute the following commands:
+
+```bash
+add-migration "InitialDb"
 update-database
+
 
 This will set up the database.
 
