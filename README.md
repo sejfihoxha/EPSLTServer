@@ -30,7 +30,7 @@ Inside the `ESPSLTServer.Infrastructure` solution, execute the following command
 
 ```bash
 add-migration "InitialDb"
-update-database ```
+update-database
 
 
 This will set up the database.
